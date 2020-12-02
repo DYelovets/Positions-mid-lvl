@@ -1,0 +1,98 @@
+.cards {
+  width: 100%;
+}
+
+.card:nth-child(1) {
+  background: linear-gradient(
+    68deg,
+    rgba(255, 190, 152, 1) 1%,
+    rgba(252, 144, 170, 1) 98%
+  );
+  margin:0 auto;
+}
+.card:nth-child(2) {
+  background: linear-gradient(
+    78deg,
+    rgba(139, 200, 245, 1) 1%,
+    rgba(52, 150, 227, 1) 98%
+  );
+  margin: 0 auto;
+}
+.card:nth-child(3) {
+  background: linear-gradient(
+    140deg,
+    rgba(90, 216, 201, 1) 0%,
+    rgba(125, 218, 210, 1) 1%,
+    rgba(51, 214, 190, 1) 98%
+  );
+  margin: 0 auto;
+}
+
+.card {
+  position: relative;
+  display: inline-block;
+  width: 33%;
+  vertical-align: sub;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.half_card {
+  width: 48%;
+  padding: 10px;
+}
+
+
+.first_p {
+  margin: 25px 0px;
+  color: honeydew;
+  font-size: 28px;
+}
+
+.second_p {
+  margin: 5px 0 20px 0;
+  color: honeydew;
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.third_p {
+  margin: 70px 0 20px 0;
+  color: honeydew;
+  font-size: 20px;
+}
+.round_top {
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  width: 190px;
+  height: 190px;
+  top: -10px;
+  right: -85px;
+  background-color: lavender;
+  border: 1px solid white;
+  opacity: 50%;
+}
+
+.round_bottom {
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  bottom: -75px;
+  right: -55px;
+  background-color: lavender;
+  border: 1px solid white;
+  opacity: 50%;
+}
+
+.img {
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 30px;
+  right: 20px;
+  color: lavender;
+}
